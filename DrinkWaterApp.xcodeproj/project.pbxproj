@@ -17,6 +17,7 @@
 		00CB8F9D2755336E00F2FF42 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB8F9B2755336E00F2FF42 /* AlertListCell.xib */; };
 		00CB8FA0275534B700F2FF42 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CB8F9F275534B700F2FF42 /* Alert.swift */; };
 		00CB8FA32755381300F2FF42 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CB8FA22755381300F2FF42 /* AddAlertViewController.swift */; };
+		00CB8FA627554B4D00F2FF42 /* UNNotificationCenter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CB8FA527554B4C00F2FF42 /* UNNotificationCenter+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		00CB8F9B2755336E00F2FF42 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 		00CB8F9F275534B700F2FF42 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		00CB8FA22755381300F2FF42 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
+		00CB8FA527554B4C00F2FF42 /* UNNotificationCenter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UNNotificationCenter+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				00CB8F802755323200F2FF42 /* AppDelegate.swift */,
 				00CB8F822755323200F2FF42 /* SceneDelegate.swift */,
 				00CB8F962755325E00F2FF42 /* AlertListViewController.swift */,
+				00CB8FA527554B4C00F2FF42 /* UNNotificationCenter+.swift */,
 				00CB8FA22755381300F2FF42 /* AddAlertViewController.swift */,
 				00CB8F9F275534B700F2FF42 /* Alert.swift */,
 				00CB8F9A2755336E00F2FF42 /* AlertListCell.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CB8F812755323200F2FF42 /* AppDelegate.swift in Sources */,
+				00CB8FA627554B4D00F2FF42 /* UNNotificationCenter+.swift in Sources */,
 				00CB8F832755323200F2FF42 /* SceneDelegate.swift in Sources */,
 				00CB8F9C2755336E00F2FF42 /* AlertListCell.swift in Sources */,
 				00CB8FA0275534B700F2FF42 /* Alert.swift in Sources */,
